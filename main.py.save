@@ -1,0 +1,37 @@
+
+#!/usr/bin/python3
+
+from flask import Flask
+app = Flask(__name__)
+@app.route("/")
+def index():
+        return "Enohorabuena, tu aplicación web Python funciona"
+
+if __name__ == "__main__":
+        app.run(host="127.0.0.1", port=8080, debug=True)
+
+@app.route("/")
+
+def cv_a_kw(cv)
+
+        """conversor de caballos a vapor a kw"""
+
+        try:
+                kw = float(cv) /1.3596
+                kw = round(km, 2) #redondeamos a dos decimales
+                return str(kw)
+        except ValueError:
+                return " El Valor introducido no es correcto"
+
+if __name__ == "__main__":
+        app.run(host="127.0.0.1", port=8080, debug=True)
+#!/usr/bin/python3
+
+from flask import Flask
+app = Flask(__name__)
+@app.route("/")
+def index():
+	return "Enohorabuena, tu aplicación web Python funciona"
+
+if __name__ == "__main__":
+	app.run(host="127.0.0.1", port=8080, debug=True)
